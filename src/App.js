@@ -65,7 +65,7 @@ export default function App() {
 function Title() {
   return (
     <div className="container">
-      <h1 className="primary-header">My Todo Shopping List</h1>
+      <h1 className="primary-header">My Todo App List</h1>
     </div>
   );
 }
