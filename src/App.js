@@ -105,7 +105,7 @@ function FormAddList({ onNewList }) {
     <div className="container align-center">
       <form onSubmit={handleSaveList}>
         <div className="btn-flex">
-          <input value={title} onChange={(e) => setTitle(e.target.value)} />
+          <input value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Start creating...."/>
           <Button>Save</Button>
         </div>
       </form>
